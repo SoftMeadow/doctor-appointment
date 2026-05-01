@@ -1,0 +1,54 @@
+ROOTS|pain_root,state_root,external_root
+
+NODE|pain_root|Боль|Pain||pain_headneck_group,pain_chest_group,pain_abdomen_group
+NODE|state_root|Изменение самочувствия|StateChange||state_general_group,state_breath_group,state_digestive_group,state_neuro_group,state_circulation_group,state_nasal_group
+NODE|external_root|Внешние проявления|ExternalSigns||external_skin_group,external_swelling_group,external_bleeding_group
+
+NODE|pain_headneck_group|Боль в голове и области ЛОР/зубов|||pain_headache,pain_tooth,pain_jaw,pain_ear,pain_throat
+NODE|pain_chest_group|Боль и дискомфорт в груди|||pain_chest,pain_chest_tightness
+NODE|pain_abdomen_group|Боль и жжение в животе|||pain_abdomen,pain_severe_abdomen,pain_heartburn
+
+NODE|state_general_group|Общие симптомы|||state_fever,state_weakness
+NODE|state_breath_group|Дыхание|||state_cough,state_air_shortness,state_wheezing
+NODE|state_digestive_group|Пищеварение|||state_nausea,state_vomiting,state_diarrhea
+NODE|state_neuro_group|Неврологические симптомы|||state_dizziness,state_consciousness,state_numbness
+NODE|state_circulation_group|Сердцебиение и отеки|||state_palpitations,state_leg_swelling
+NODE|state_nasal_group|Носовое дыхание и выделения|||state_runny_nose,state_nasal_congestion
+
+NODE|external_skin_group|Кожа|||ext_rash,ext_itching,ext_hives
+NODE|external_swelling_group|Отеки лица и мягких тканей|||ext_facial_swelling
+NODE|external_bleeding_group|Кровотечение|||ext_bleeding,ext_nosebleed
+
+NODE|pain_headache|Головная боль||headache|
+NODE|pain_tooth|Зубная боль||tooth_pain|
+NODE|pain_jaw|Боль в челюсти||jaw_pain|
+NODE|pain_ear|Боль в ухе||ear_pain|
+NODE|pain_throat|Боль в горле||sore_throat|
+NODE|pain_chest|Боль в груди||chest_pain|
+NODE|pain_chest_tightness|Чувство сдавления в груди||chest_tightness|
+NODE|pain_abdomen|Боль в животе||abdominal_pain|
+NODE|pain_severe_abdomen|Сильная внезапная боль в животе||severe_abdominal_pain|
+NODE|pain_heartburn|Изжога||heartburn|
+
+NODE|state_fever|Повышенная температура||fever|
+NODE|state_weakness|Слабость||weakness|
+NODE|state_cough|Кашель||cough|
+NODE|state_air_shortness|Одышка||shortness_breath|
+NODE|state_wheezing|Свистящее дыхание||wheezing|
+NODE|state_nausea|Тошнота||nausea|
+NODE|state_vomiting|Рвота||vomiting|
+NODE|state_diarrhea|Диарея||diarrhea|
+NODE|state_dizziness|Головокружение||dizziness|
+NODE|state_consciousness|Потеря сознания||loss_of_consciousness|
+NODE|state_numbness|Онемение||numbness|
+NODE|state_palpitations|Сердцебиение||palpitations|
+NODE|state_leg_swelling|Отек ног||leg_swelling|
+NODE|state_runny_nose|Насморк||runny_nose|
+NODE|state_nasal_congestion|Заложенность носа||nasal_congestion|
+
+NODE|ext_rash|Сыпь||rash|
+NODE|ext_itching|Зуд||itching|
+NODE|ext_hives|Крапивница||hives|
+NODE|ext_facial_swelling|Отек лица||facial_swelling|
+NODE|ext_bleeding|Кровотечение||bleeding|
+NODE|ext_nosebleed|Носовое кровотечение||nosebleed|

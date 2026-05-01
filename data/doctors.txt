@@ -1,0 +1,42 @@
+SYMPTOM|tooth_pain|Зубная боль
+SYMPTOM|jaw_pain|Боль в челюсти
+SYMPTOM|ear_pain|Боль в ухе
+SYMPTOM|sore_throat|Боль в горле
+SYMPTOM|headache|Головная боль
+SYMPTOM|chest_pain|Боль в груди
+SYMPTOM|chest_tightness|Чувство сдавления в груди
+SYMPTOM|abdominal_pain|Боль в животе
+SYMPTOM|severe_abdominal_pain|Сильная внезапная боль в животе
+SYMPTOM|heartburn|Изжога
+SYMPTOM|fever|Повышенная температура
+SYMPTOM|weakness|Слабость
+SYMPTOM|cough|Кашель
+SYMPTOM|shortness_breath|Одышка
+SYMPTOM|wheezing|Свистящее дыхание
+SYMPTOM|nausea|Тошнота
+SYMPTOM|vomiting|Рвота
+SYMPTOM|diarrhea|Диарея
+SYMPTOM|dizziness|Головокружение
+SYMPTOM|loss_of_consciousness|Потеря сознания
+SYMPTOM|numbness|Онемение
+SYMPTOM|palpitations|Сердцебиение
+SYMPTOM|runny_nose|Насморк
+SYMPTOM|nasal_congestion|Заложенность носа
+SYMPTOM|rash|Сыпь
+SYMPTOM|itching|Зуд
+SYMPTOM|hives|Крапивница
+SYMPTOM|facial_swelling|Отек лица
+SYMPTOM|leg_swelling|Отек ног
+SYMPTOM|bleeding|Кровотечение
+SYMPTOM|nosebleed|Носовое кровотечение
+
+DOCTOR|dentist|Стоматолог|Заболевания зубов, десен и полости рта|facial_swelling|tooth_pain,jaw_pain|sore_throat|ear_pain
+DOCTOR|otolaryngologist|ЛОР|Заболевания уха, горла и носа|nosebleed|ear_pain,sore_throat,nasal_congestion|runny_nose|headache
+DOCTOR|cardiologist|Кардиолог|Сердечно-сосудистые заболевания|chest_pain,loss_of_consciousness|chest_tightness,palpitations,shortness_breath,leg_swelling|weakness,dizziness|
+DOCTOR|neurologist|Невролог|Заболевания нервной системы|loss_of_consciousness|headache,dizziness,numbness|weakness|
+DOCTOR|pulmonologist|Пульмонолог|Заболевания дыхательных путей и легких|shortness_breath|cough,wheezing,chest_tightness|fever|weakness
+DOCTOR|gastroenterologist|Гастроэнтеролог|Заболевания желудка, кишечника и других органов пищеварения|severe_abdominal_pain|abdominal_pain,vomiting,diarrhea,heartburn|nausea|weakness
+DOCTOR|dermatologist|Дерматолог|Заболевания кожи|facial_swelling|rash,hives,itching||
+DOCTOR|allergist|Аллерголог|Аллергические заболевания и реакции|facial_swelling,shortness_breath|hives,itching,wheezing|rash,runny_nose|nasal_congestion
+DOCTOR|surgeon|Хирург|Острые хирургические состояния|bleeding,severe_abdominal_pain|abdominal_pain|vomiting|weakness
+DOCTOR|therapist|Терапевт|Первичный прием, общая диагностика и маршрутизация|fever|weakness,cough,headache,sore_throat|runny_nose,nasal_congestion,nausea,dizziness,rash|abdominal_pain,diarrhea,leg_swelling
